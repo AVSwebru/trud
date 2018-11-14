@@ -1,0 +1,13 @@
+.header-top {
+  background: #161011 url(../img/bg-nav.jpg) 50% 50% no-repeat;
+  background-size: cover;
+
+}
+
+.header-top__wrapper {
+  padding: 50px 0 6px 175px;
+  position: relative;
+  @media (max-width: $breakpoint-large) {
+    text-align: right;
+  }
+}

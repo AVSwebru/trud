@@ -1,0 +1,8 @@
+.alt-menu {
+}
+
+@media (min-width: $breakpoint-large) {
+  .alt-menu {
+    display: none;
+  }
+}

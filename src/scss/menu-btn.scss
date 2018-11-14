@@ -1,0 +1,15 @@
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  .menu-btn {
+    display: none;
+  }
+}

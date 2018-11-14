@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Труд Черноземья</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header-top">
+      <div class="uk-container">
+        <div class="header-top__wrapper">
+          <a class="logo" href="#">
+            <img src="img/logo.jpg" width="160" height="130" alt="logo">
+          </a>
+          <nav class="header-nav js-menu" data-uk-navbar="align: right; delay-hide: 500">
+            <ul class="header-nav__list-level-1 uk-navbar-nav">
+              <li>
+                <a class="header-nav__link-level-1" href="#">Происшествия</a>
+              </li>
+              <li>
+                <a class="header-nav__link-level-1" href="#">Предпринимательство</a>
+              </li>
+              <li>
+                <a class="header-nav__link-level-1" href="#">Строительство</a>
+              </li>
+              <li>
+                <a class="header-nav__link-level-1" href="#">Сельское хозяйство</a>
+              </li>
+              <li>
+                <a class="header-nav__link-level-1" href="#">Промышленность</a>
+              </li>
+              <li>
+                <a class="header-nav__link-level-1" href="#">Работа</a>
+              </li>
+              <li>
+                <a class="header-nav__link-level-1" href="#">Культура</a>
+              </li>
+              <li class="uk-parent">
+                <a class="header-nav__link-level-1 header-nav__more" href="#">Ещё</a>
+                <div class="uk-navbar-dropdown">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="#">Происшествия</a></li>
+                    <li><a href="#">Предпринимательство</a></li>
+                    <li><a href="#">Строительство</a></li>
+                    <li><a href="#">Сельское хозяйство</a></li>
+                    <li><a href="#">Промышленность</a></li>
+                    <li><a href="#">Работа</a></li>
+                    <li><a href="#">Культура</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <button class="menu-btn" data-uk-icon="icon: menu"  uk-toggle="target: #menu" type="button"></button>
+        </div>
+      </div>
+    </div>
+    <div class="header-info js-header-info">
+      <div class="uk-container">
+        <div class="header-info__wrapper">
+          <div class="header-info__date">
+            29 октября 2018, понедельник, 15:25
+          </div>
+          <div class="header-info__widgets">
+            <div class="header-info__search-bar search-bar js-search" id="search" hidden>
+              <form class="search-bar__form uk-search">
+                <input class="search-bar__input uk-search-input" type="search" placeholder="Поиск по сайту">
+                <button class="search-bar__submit" type="submit">НАЙТИ</button>
+              </form>
+            </div>
+            <button class="header-info__search-btn search-btn js-search-btn" data-uk-toggle="target: #search; animation: uk-animation-slide-right-small" type="button">
+              <span class="search-btn__open" data-uk-icon="icon: search"></span>
+              <span class="search-btn__close" data-uk-icon="icon: close"></span>
+            </button>
+            <a href="#" class="header-info__archive">Архив</a>
+            <ul class="social-bar">
+              <li>
+                <a class="social-bar__link social-bar__link_vk" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 22 22">
+                    <path fill="currentColor" transform="translate(-1436 -101)" d="M1436 123v-22h22v22z"/>
+                    <path fill="#fff" transform="translate(-1436 -101)" d="M1453.375 114.48c-.447-.506-.972-.936-1.47-1.393-.448-.413-.477-.652-.116-1.128.393-.52.817-1.019 1.214-1.536.37-.483.75-.965.945-1.544.123-.368.014-.53-.387-.595-.069-.012-.14-.012-.21-.012l-2.376-.003c-.293-.004-.455.116-.558.361-.14.33-.284.66-.451.98-.377.722-.8 1.422-1.39 2.013-.13.13-.275.296-.493.228-.273-.094-.353-.517-.349-.66l-.002-2.585c-.052-.37-.14-.535-.528-.606h-2.469c-.33 0-.495.12-.67.315-.102.112-.133.185.076.222.41.073.64.323.702.71.098.619.09 1.24.035 1.86-.017.182-.05.363-.127.532-.12.267-.312.32-.565.157-.229-.149-.39-.357-.547-.568a12.26 12.26 0 0 1-1.45-2.532c-.111-.258-.303-.414-.593-.418a64.724 64.724 0 0 0-2.14 0c-.428.008-.556.204-.381.57.776 1.629 1.64 3.212 2.768 4.653.58.74 1.245 1.393 2.104 1.856.973.525 2.021.682 3.125.633.517-.022.673-.149.696-.635.017-.331.056-.662.23-.96.17-.293.43-.35.728-.167.149.092.274.207.393.33.29.3.571.61.874.899.378.363.827.578 1.39.534h2.185c.352-.021.534-.428.333-.798a3.956 3.956 0 0 0-.526-.714z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="social-bar__link social-bar__link_od" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 22 22">
+                    <path fill="currentColor" transform="translate(-1469 -101)" d="M1469 123v-22h22v22z"/>
+                    <path fill="#fff" transform="translate(-1469 -101)" d="M1476.652 114.085c-.112-.093-.226-.183-.328-.287-.392-.403-.432-.863-.122-1.339.266-.406.713-.515 1.176-.282.09.046.176.102.258.163 1.672 1.225 3.968 1.26 5.646.055.167-.136.344-.247.55-.304.401-.11.774.048.989.422.246.427.242.844-.06 1.175a4.556 4.556 0 0 1-1.643 1.134c-.586.242-1.228.363-1.864.445.097.112.141.166.202.23.863.926 1.73 1.848 2.59 2.776.293.317.354.709.193 1.077-.177.402-.572.667-.959.638-.245-.018-.437-.148-.607-.331-.652-.7-1.315-1.386-1.953-2.099-.186-.208-.275-.169-.439.012-.655.72-1.321 1.429-1.991 2.133-.3.317-.659.374-1.007.193a1.096 1.096 0 0 1-.59-1.001c.013-.275.14-.485.317-.673.854-.91 1.705-1.823 2.558-2.735.056-.06.109-.125.19-.219-1.16-.13-2.209-.434-3.106-1.183zm.054-6.045c.012-2.241 1.713-4.047 3.806-4.04 2.098.006 3.781 1.837 3.771 4.101-.01 2.212-1.722 4.004-3.816 3.997-2.073-.007-3.773-1.842-3.761-4.058zm3.792-1.972c-1.039-.002-1.866.89-1.859 2.001.008 1.096.836 1.966 1.868 1.962 1.029-.004 1.847-.886 1.844-1.985-.004-1.1-.825-1.977-1.853-1.978z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="social-bar__link social-bar__link_fb" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 22 22">
+                    <path fill="currentColor" transform="translate(-1503 -101)"  d="M1503 123v-22h22v22z"/>
+                    <path fill="#fff" transform="translate(-1503 -101)" d="M1521 107.988h-1.813c-1.42 0-1.696.632-1.696 1.559v2.042h3.39l-.001 3.2h-3.39V123h-3.534v-8.21H1511v-3.2h2.956v-2.36c0-2.737 1.789-4.23 4.403-4.23l2.64.005z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alt-menu" id="menu" data-uk-offcanvas="overlay: true">
+      <div class="alt-menu__inner uk-offcanvas-bar js-alt-menu">
+        <button class="uk-offcanvas-close uk-close-large" type="button" data-uk-close></button>
+      </div>
+    </div>
+  </header>
+  <main class="homepage">
+    <div class="uk-container">
+      <div class="uk-grid uk-grid-match">
+        <div class="uk-width-3-4@m">
+          <a class="homepage__favorite-item favorite-item" href="#">
+            <span class="favorite-item__photo uk-cover-container">
+              <img data-uk-cover src="img/favorite-item.jpg" alt="">
+            </span>
+            <span class="favorite-item__desc">
+              <div class="favorite-item__date">30 октября</div>
+              <h3 class="favorite-item__title">
+                В Воронеже открылся IV детский театральный фестиваль МАРШАК
+              </h3>
+              <span class="favorite-item__text">
+                IV детский театральный фестиваль МАРШАК открылся 27 октября в Воронеже. Фестиваль проводится в дни осенних школьных каникул при поддержке правительства Воронежской области. Губернатор Воронежской области Александр Гусев направил организаторам, участникам и зрителям фестиваля приветственный адрес, в котором говорится, что за время своего существования фестиваль заслужил искреннее признание и любовь тысяч юных зрителей, стал ярким культурным событием, которое с нетерпением ждут и дети, и взрослые ...
+              </span>
+            </span>
+          </a>
+          <div class="uk-grid-match uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m" data-uk-grid>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Общество</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">30 октября</div>
+                  <h3 class="news-item__title">
+                    Сила преимущества
+                  </h3>
+                  <span class="news-item__text">
+                    Губернатор Воронежской области Александр Гусев посетил с рабочей поездкой Панинский муниципальный район. Здесь он побывал в АПК...
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Спорт</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">28 октября</div>
+                  <h3 class="news-item__title">
+                    «Валера, верим!» Что ждет «Спартак» при Карпине
+                  </h3>
+                  <span class="news-item__text">
+                    Валерий Карпин, возглавляющий «Ростов», стал главным претендентом на пост главного тренера в области
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Работа</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">28 октября</div>
+                  <h3 class="news-item__title">
+                    «Воронежсельмаш» заплатил государству 25 млн.рублей
+                  </h3>
+                  <span class="news-item__text">
+                    Как сообщалось недавно, сотрудники областных воронежских правоохранительных органов – Следственного комитета...
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="uk-width-1-4 uk-visible@m">
+          <section class="last-news">
+            <h2 class="last-news__title">Последние новости</h2>
+            <a class="last-news-item" href="#">
+              <span class="last-news-item__heading">
+                <span class="last-news-item__time">11:41</span>
+                <span class="last-news-item__date"> - 9 ноября</span>
+              </span>
+              <span class="last-news-item__title">Песков назвал главную цель встречи Путина и Трампа</span>
+            </a>
+            <a class="last-news-item" href="#">
+              <span class="last-news-item__heading">
+                <span class="last-news-item__time">11:41</span>
+                <span class="last-news-item__date"> - 9 ноября</span>
+              </span>
+              <span class="last-news-item__title">Песков назвал главную цель встречи Путина и Трампа</span>
+            </a>
+            <a class="last-news-item" href="#">
+              <span class="last-news-item__heading">
+                <span class="last-news-item__time">11:41</span>
+                <span class="last-news-item__date"> - 9 ноября</span>
+              </span>
+              <span class="last-news-item__title">Песков назвал главную цель встречи Путина и Трампа</span>
+            </a>
+            <a class="last-news-item" href="#">
+              <span class="last-news-item__heading">
+                <span class="last-news-item__time">11:41</span>
+                <span class="last-news-item__date"> - 9 ноября</span>
+              </span>
+              <span class="last-news-item__title">Песков назвал главную цель встречи Путина и Трампа</span>
+            </a>
+            <div class="banner">
+              <img src="img/banner.jpg" alt="banner">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+      <section class="home-section">
+        <div class="uk-container">
+          <a class="home-section__link" href="#">
+            <h2 class="home-section__title">ОБЩЕСТВО</h2>
+          </a>
+          <div class="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Работа</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">28 октября</div>
+                  <h3 class="news-item__title">
+                    «Воронежсельмаш» заплатил государству 25 млн.рублей
+                  </h3>
+                  <span class="news-item__text">
+                    Как сообщалось недавно, сотрудники областных воронежских правоохранительных органов – Следственного комитета...
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Работа</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">28 октября</div>
+                  <h3 class="news-item__title">
+                    «Воронежсельмаш» заплатил государству 25 млн.рублей
+                  </h3>
+                  <span class="news-item__text">
+                    Как сообщалось недавно, сотрудники областных воронежских правоохранительных органов – Следственного комитета...
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Работа</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">28 октября</div>
+                  <h3 class="news-item__title">
+                    «Воронежсельмаш» заплатил государству 25 млн.рублей
+                  </h3>
+                  <span class="news-item__text">
+                    Как сообщалось недавно, сотрудники областных воронежских правоохранительных органов – Следственного комитета...
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div>
+              <a class="news-item" href="#">
+                <span class="news-item__photo uk-cover-container">
+                  <img data-uk-cover src="img/news-item.jpg" alt="">
+                  <span class="news-item__mark">Работа</span>
+                </span>
+                <span class="news-item__desc">
+                  <div class="news-item__date">28 октября</div>
+                  <h3 class="news-item__title">
+                    «Воронежсельмаш» заплатил государству 25 млн.рублей
+                  </h3>
+                  <span class="news-item__text">
+                    Как сообщалось недавно, сотрудники областных воронежских правоохранительных органов – Следственного комитета...
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="uk-container">
+          <h2 class="partners__title">
+            Партнеры
+          </h2>
+
+
+
+
+          <div class="partners__slider" data-uk-slider>
+            <div class="uk-position-relative">
+              <div class="uk-slider-container">
+                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-5@m uk-grid uk-grid-large">
+                  <li class="partner-item">
+                    <img src="img/partners-logo-1.png" alt="">
+                  </li>
+                  <li class="partner-item">
+                    <img src="img/partners-logo-1.png" alt="">
+                  </li>
+                  <li class="partner-item">
+                    <img src="img/partners-logo-2.jpg" alt="">
+                  </li>
+                  <li class="partner-item">
+                    <img src="img/partners-logo-2.jpg" alt="">
+                  </li>
+                  <li class="partner-item">
+                    <img src="img/partners-logo-1.png" alt="">
+                  </li>
+                  <li class="partner-item">
+                    <img src="img/partners-logo-2.jpg" alt="">
+                  </li>
+                </ul>
+              </div>
+              <a class="partners__slider-arrow uk-position-center-left-out" href="#" data-uk-slider-item="previous" data-uk-icon="chevron-left"></a>
+              <a class="partners__slider-arrow uk-position-center-right-out" href="#" data-uk-slider-item="next" data-uk-icon="chevron-right"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="uk-container">
+        <div class="uk-grid-large uk-child-width-1-2@m uk-position-relative" data-uk-grid>
+          <div>
+            <div class="footer-top__info">
+              <p>Сетевое издание «Труд Черноземья», зарегистрировано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор).
+              Номер свидетельства ЭЛ № ФС 77 – 73121 от 09.06.2018 г.
+
+              <p>Учредитель:
+              Общество с ограниченной ответственностью «Труд Черноземья».
+              Главный редактор Пульвер Ю.Е.
+
+              <p>394018, г. Воронеж,
+              ул. Платонова, 19.
+              Номер телефона редакции +7(473)220-42-65
+              +7(473)220-44-84
+              Адрес электронной почты: trud-chernozemie@mail.ru
+            </div>
+          </div>
+          <div>
+            <div class="footer-top__links"  data-uk-grid>
+              <div class="uk-width-2-3@s">
+                <ul class="footer-top__special-links">
+                  <li><a href="#">Реклама на сайте</a></li>
+                  <li><a href="#">Архив</a></li>
+                  <li><a href="#">Редакция</a></li>
+                </ul>
+              </div>
+              <div class="uk-width-1-3@s">
+                <ul class="footer-top__social-bar social-bar">
+                  <li>
+                    <a class="social-bar__link social-bar__link_vk" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 22 22">
+                        <path fill="currentColor" transform="translate(-1436 -101)" d="M1436 123v-22h22v22z"/>
+                        <path fill="#fff" transform="translate(-1436 -101)" d="M1453.375 114.48c-.447-.506-.972-.936-1.47-1.393-.448-.413-.477-.652-.116-1.128.393-.52.817-1.019 1.214-1.536.37-.483.75-.965.945-1.544.123-.368.014-.53-.387-.595-.069-.012-.14-.012-.21-.012l-2.376-.003c-.293-.004-.455.116-.558.361-.14.33-.284.66-.451.98-.377.722-.8 1.422-1.39 2.013-.13.13-.275.296-.493.228-.273-.094-.353-.517-.349-.66l-.002-2.585c-.052-.37-.14-.535-.528-.606h-2.469c-.33 0-.495.12-.67.315-.102.112-.133.185.076.222.41.073.64.323.702.71.098.619.09 1.24.035 1.86-.017.182-.05.363-.127.532-.12.267-.312.32-.565.157-.229-.149-.39-.357-.547-.568a12.26 12.26 0 0 1-1.45-2.532c-.111-.258-.303-.414-.593-.418a64.724 64.724 0 0 0-2.14 0c-.428.008-.556.204-.381.57.776 1.629 1.64 3.212 2.768 4.653.58.74 1.245 1.393 2.104 1.856.973.525 2.021.682 3.125.633.517-.022.673-.149.696-.635.017-.331.056-.662.23-.96.17-.293.43-.35.728-.167.149.092.274.207.393.33.29.3.571.61.874.899.378.363.827.578 1.39.534h2.185c.352-.021.534-.428.333-.798a3.956 3.956 0 0 0-.526-.714z"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-bar__link social-bar__link_od" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 22 22">
+                        <path fill="currentColor" transform="translate(-1469 -101)" d="M1469 123v-22h22v22z"/>
+                        <path fill="#fff" transform="translate(-1469 -101)" d="M1476.652 114.085c-.112-.093-.226-.183-.328-.287-.392-.403-.432-.863-.122-1.339.266-.406.713-.515 1.176-.282.09.046.176.102.258.163 1.672 1.225 3.968 1.26 5.646.055.167-.136.344-.247.55-.304.401-.11.774.048.989.422.246.427.242.844-.06 1.175a4.556 4.556 0 0 1-1.643 1.134c-.586.242-1.228.363-1.864.445.097.112.141.166.202.23.863.926 1.73 1.848 2.59 2.776.293.317.354.709.193 1.077-.177.402-.572.667-.959.638-.245-.018-.437-.148-.607-.331-.652-.7-1.315-1.386-1.953-2.099-.186-.208-.275-.169-.439.012-.655.72-1.321 1.429-1.991 2.133-.3.317-.659.374-1.007.193a1.096 1.096 0 0 1-.59-1.001c.013-.275.14-.485.317-.673.854-.91 1.705-1.823 2.558-2.735.056-.06.109-.125.19-.219-1.16-.13-2.209-.434-3.106-1.183zm.054-6.045c.012-2.241 1.713-4.047 3.806-4.04 2.098.006 3.781 1.837 3.771 4.101-.01 2.212-1.722 4.004-3.816 3.997-2.073-.007-3.773-1.842-3.761-4.058zm3.792-1.972c-1.039-.002-1.866.89-1.859 2.001.008 1.096.836 1.966 1.868 1.962 1.029-.004 1.847-.886 1.844-1.985-.004-1.1-.825-1.977-1.853-1.978z"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-bar__link social-bar__link_fb" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 22 22">
+                        <path fill="currentColor" transform="translate(-1503 -101)"  d="M1503 123v-22h22v22z"/>
+                        <path fill="#fff" transform="translate(-1503 -101)" d="M1521 107.988h-1.813c-1.42 0-1.696.632-1.696 1.559v2.042h3.39l-.001 3.2h-3.39V123h-3.534v-8.21H1511v-3.2h2.956v-2.36c0-2.737 1.789-4.23 4.403-4.23l2.64.005z"/>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="uk-child-width-1-3@s" data-uk-grid>
+              <div>
+                <ul class="footer-top__nav-list">
+                  <li>
+                    <a href="#">Происшествия</a>
+                  </li>
+                  <li>
+                    <a href="#">Предпринимательство</a>
+                  </li>
+                  <li>
+                    <a href="#">Строительство</a>
+                  </li>
+                  <li>
+                    <a href="#">Сельское хозяйство</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="footer-top__nav-list">
+                  <li>
+                    <a href="#">Происшествия</a>
+                  </li>
+                  <li>
+                    <a href="#">Предпринимательство</a>
+                  </li>
+                  <li>
+                    <a href="#">Строительство</a>
+                  </li>
+                  <li>
+                    <a href="#">Сельское хозяйство</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="footer-top__nav-list">
+                  <li>
+                    <a href="#">Происшествия</a>
+                  </li>
+                  <li>
+                    <a href="#">Предпринимательство</a>
+                  </li>
+                  <li>
+                    <a href="#">Строительство</a>
+                  </li>
+                  <li>
+                    <a href="#">Сельское хозяйство</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-top__age">16+</div>
+          </div>
+          <a class="to-top" href="#" data-uk-scroll>
+            <span uk-icon="arrow-up"></span>
+            Наверх
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="uk-container">
+        <div class="footer-bottom__wrapper">
+            <img src="img/counters.jpg" alt="">
+            <a class="footer-bottom__link" href="#">Пользовательское соглашение</a>
+            <a class="footer-bottom__link" href="#">Политика конфиденциальности</a>
+            <a class="footer-bottom__devs" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="125" height="40" fill="#656565" viewBox="0 0 936 316">
+              	<path d="M136.9,198.3c-3.2,1.7-7.1,0.6-8.8-2.6l-36.6-68.2c-1.7-3.2-0.6-7.1,2.6-8.8c3.2-1.7,7.1-0.6,8.8,2.6l36.6,68.2
+              		C141.2,192.6,140.1,196.6,136.9,198.3L136.9,198.3z M101.5,127.5l-36.6,68.2c-1.7,3.2-5.7,4.3-8.8,2.6c-3.2-1.7-4.3-5.7-2.6-8.8
+              		l36.6-68.2c1.2-2.2,3.5-3.5,5.9-3.4c0.1,0,0.5,0,0.5,0c0.1,0,0.6,0,0.7,0c0.8,0.1,1,0.4,1.7,0.8
+              		C102.1,120.4,103.2,124.4,101.5,127.5z"/>
+              	<path d="M209.5,127.5l-36.6,68.2c-1.7,3.2-5.7,4.3-8.8,2.6c-3.2-1.7-4.3-5.7-2.6-8.8l36.6-68.2c1.7-3.2,5.7-4.3,8.8-2.6
+              		C210.1,120.4,211.2,124.4,209.5,127.5L209.5,127.5z M168.9,198.3c-3.2,1.7-7.1,0.6-8.8-2.6l-36.6-68.2c-1.7-3.2-0.6-7.1,2.6-8.8
+              		c3.2-1.7,7.1-0.6,8.8,2.6l36.6,68.2C173.2,192.6,172.1,196.6,168.9,198.3L168.9,198.3z"/>
+              	<path d="M240,128c0,0-12-1.2-12,9c0,8,5.7,10,14,13s15,4.3,20,13c4.2,7.4,4.3,21.1-6,29c-10.7,8.2-26.3,6.8-37,2c-4.5-2-4.2-7.3-3-9
+              		s5.8-2.3,10,0s9.7,2.9,14,2c5.3-1.1,12.8-3.2,13-11s-2-10.5-12-14c-9-3.2-25.8-7.8-25-26c0.3-7.4,5.2-13,10.1-15.4
+              		c7-3.5,13-3.8,17.9-2.6c3.8,1,17.3,5.7,14,12C253.6,138.5,245.8,128,240,128L240,128z"/>
+              	<path d="M305,305V11H11v294H305 M316,316H0V0h316V316L316,316L316,316z"/>
+              	<text style="font-family: 'Open Sans', sans-serif;
+              	font-size: 110px; fill: #21292c;" x="400" y="130">Сделано в</text>
+              	<text style="font-family: 'Open Sans', sans-serif;
+              	font-size: 110px; letter-spacing: 3px; fill: #21292c;" x="400" y="270" textLength="550">#avsweb</text>
+              </svg>
+            </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="bundle.js"></script>
+</body>
+
+</html>

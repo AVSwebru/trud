@@ -1,0 +1,16 @@
+.search-btn {
+  @include reset-btn;
+  color: #959595;
+  &.active {
+    .search-btn__open {
+      display: none;
+    }
+    .search-btn__close {
+      display: block;
+    }
+  }
+}
+
+.search-btn__close {
+    display: none;
+}

@@ -1,0 +1,22 @@
+.to-top {
+  width: 110px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: -45px;
+  transform: translateY(-50%);
+  border: 1px solid #b4b4b4;
+  background-color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  color: #57616a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  @include reset-link;
+  &:hover {
+    color: $theme-color;
+    border-width: 2px;
+  }
+}

@@ -1,0 +1,21 @@
+.home-section {
+  margin-top: 50px;
+}
+
+.home-section__link {
+  display: block;
+  margin-bottom: 15px;
+  &:hover {
+    .home-section__title {
+      color: #0f0f0f;
+    }
+  }
+}
+
+.home-section__title {
+  margin: 0;
+  color: $theme-color;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}

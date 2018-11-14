@@ -1,0 +1,26 @@
+.social-bar {
+  display: flex;
+  align-items: center;
+  @include reset-list;
+  margin: 0 -5px;
+  & > li {
+    margin: 0 5px;
+  }
+}
+
+.social-bar__link {
+  transition: color 0.25s;
+  &_vk {
+    color: #3185bd
+  }
+  &_od {
+    color: #ff9900;
+  }
+  &_fb {
+    color: #255b9c;
+  }
+  &:hover {
+    color: $theme-color;
+    transition: color 0.25s;
+  }
+}

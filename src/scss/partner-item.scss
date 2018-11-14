@@ -1,0 +1,11 @@
+.partner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+  transtion: filter 0.25s;
+  &:hover {
+    filter: grayscale(0%);
+    transtion: filter 0.25s;
+  }
+}
