@@ -1,6 +1,7 @@
 .search-btn {
   @include reset-btn;
   color: #959595;
+  cursor: pointer;
   &.active {
     .search-btn__open {
       display: none;

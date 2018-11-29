@@ -14,7 +14,6 @@ $global-medium-gutter: 15px;
 // 3. Your custom mixin overwrites.
 
 //search
-
 @mixin hook-search-input() {
   padding: 0 10px;
   border: 1px solid #cacaca;
@@ -67,6 +66,13 @@ $offcanvas-bar-padding-horizontal: 25px;
 $offcanvas-bar-padding-horizontal-m: 25px;
 $offcanvas-bar-width: 100%;
 $offcanvas-overlay-background:  rgba(0,0,0,0.5);
+
+//breadcrumb
+$breadcrumb-divider-margin-horizontal: 10px;
+$breadcrumb-item-color: #636161;
+
+//slidenav
+$slidenav-hover-color: $theme-color;
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
