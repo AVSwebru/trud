@@ -74,5 +74,7 @@ $breadcrumb-item-color: #636161;
 //slidenav
 $slidenav-hover-color: $theme-color;
 
+$base-em-color: $base-color;
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
