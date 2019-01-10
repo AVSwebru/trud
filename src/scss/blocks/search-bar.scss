@@ -37,6 +37,8 @@
 
 .search-bar__submit {
   @include reset-btn;
+  appearance: none;
+  border-radius: 0;
   padding: 8px 18px;
   background-color: $theme-color;
   color: #fff;

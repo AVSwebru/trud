@@ -1,8 +1,11 @@
 .news-item {
+  @include reset-link;
   display: block;
   background-color: #fff;
-  @include reset-link;
+  transition: box-shadow 0.25s;
   &:hover {
+    transition: box-shadow 0.25s;
+    box-shadow: 1px 2px 4px #dfdfdf;
     .news-item__title {
       color: $theme-color;
     }
@@ -46,6 +49,9 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.25;
+  @media (max-width: $breakpoint-small) {
+    font-size: 16px;
+  }
 }
 
 .news-item__mark {

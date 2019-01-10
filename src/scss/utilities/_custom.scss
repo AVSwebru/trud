@@ -2,7 +2,7 @@
 @import "variables";
 $global-font-family: "PT Sans", sans-serif;
 
-$base-color: #2b2a2a;
+$base-body-color: #2f2e2e;
 
 $container-max-width: 1140px;
 $global-medium-gutter: 15px;
@@ -74,7 +74,7 @@ $breadcrumb-item-color: #636161;
 //slidenav
 $slidenav-hover-color: $theme-color;
 
-$base-em-color: $base-color;
+$base-em-color: $base-body-color;
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
